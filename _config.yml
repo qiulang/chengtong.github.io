@@ -1,14 +1,30 @@
-# theme: jekyll-theme-minimal
+# 主题：Minimal Mistakes（左侧个人栏 + 顶部导航）
+remote_theme: mmistakes/minimal-mistakes@4.27.3
+minimal_mistakes_skin: default   # 可选: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
-# remote_theme: pages-themes/architect@v0.2.0
-# plugins:
-# - jekyll-remote-theme # add this line to the plugins list if you already have one
+locale: en-US
+title: Chengtong Qiu
+name: Chengtong Qiu
+description: Bioengineering undergraduate at East China University of Science and Technology
 
-remote_theme: pages-themes/modernist@v0.2.0
+# 左侧个人栏
+author:
+  name: Chengtong Qiu (邱成桐)
+  avatar: /assets/images/goodandevil.jpeg
+  bio: Final-year Bioengineering student
+  location: Shanghai, China
+  links:
+    # 按需取消注释并填写
+    # - label: Email
+    #   icon: fas fa-fw fa-envelope
+    #   url: mailto:you@example.com
+    # - label: GitHub
+    #   icon: fab fa-fw fa-github
+    #   url: https://github.com/your-username
+
+footer:
+  links: []
+
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-# - jekyll-seo-tag
-
-# remote_theme: pages-themes/hacker@v0.2.0
-# plugins:
-# - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+  - jekyll-include-cache
